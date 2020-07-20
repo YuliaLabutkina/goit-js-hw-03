@@ -12,7 +12,7 @@ const products = [
 
     for(let obj of arr) {
 
-        if (obj.hasOwnProperty(prop)) {
+        if (obj.hasOwnProperty(prop) && !!obj[prop]) {
             tvalues.push(obj[prop]);
         }
     }
