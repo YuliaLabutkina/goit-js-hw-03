@@ -12,7 +12,7 @@ const products = [
     for(let obj of allProdcuts) {
 
         if (obj.name === productName) {
-          return (obj.price) * (obj.quantity);
+          return obj.price * obj.quantity;
         }
     }
 

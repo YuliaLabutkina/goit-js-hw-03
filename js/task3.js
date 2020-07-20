@@ -10,7 +10,6 @@ const findBestEmployee = function(employees) {
         maxTask = employees[key];
         bestEmployee = key;
       }
-      
     }
 
     return bestEmployee;
